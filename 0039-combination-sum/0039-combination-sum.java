@@ -1,32 +1,31 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        
         List<List<Integer>> ans = new ArrayList<>();
-        find(0,candidates,target, ans, new ArrayList<>());
+        findCombination(0, target, candidates, ans, new ArrayList<>());
         return ans;
     }
     
-    
-    public static void find(int indx,int[] arr,int target,List<List<Integer>> ans, List<Integer>list){
+    public static void findCombination(int index, int target, int arr[],List<List<Integer>> ans, List<Integer>list){
         
-        //BASE CASE.
-        if(indx == arr.length){
+        
+        
+        //base.
+        if(index == arr.length){
             if(target == 0){
                 ans.add(new ArrayList<>(list));
             }
             return;
         }
         
-        //Thre are two condition here 
-        // 1st is :- Pick Condition.
-        //2nd is: - Non Pick Condition.
         
-        //Pick Condition.
-        if(arr[indx]<= target){ //if my target is greater than arr index element
-            list.add(arr[indx]); //then add it to my list.
-            find(indx, arr, target-arr[indx], ans, list); 
-            list.remove(list.size()-1); //when return or backtrack remove the 22 loc which is added.
+        if(arr[index]<= target){
+            list.add(arr[index]);
+            //pick condition.
+            findCombination(index, target- arr[index], arr, ans, list);
+            list.remove(list.size()-1);
         }
-        find(indx+1, arr, target, ans, list); //Non Pick condition.
+        //Non pick condition.
+        findCombination(index+1, target, arr, ans, list);
     }
+    
 }
