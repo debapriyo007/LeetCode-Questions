@@ -15,25 +15,26 @@ class Solution {
         }
         
         
-        for(int i = index;i<str.length();i++){ //why (i = index)..coz base index i wann partation , and partation till the end.
+        for(int i = index;i<str.length();i++){ //Why (i =index) coz base on index i want to partation , and go on till the end.
             
-            //Suppose , i partation at 0'th index .
-            //i will check partion's left part means, (0-0) is palindrom or not ?
+            //Suppose , we partation at O'th index
+            // check , partation left part sunbstring is palindrom or not ? means (0-0) substring is palindrom or not?
             
-            if(isPalindrom(str,index, i)){ //if palindrom 
+            //If palindrom what we do ?
+            if(isPalindrom(str,index, i)){
+                // add that partation left part substring into list.
+               list.add(str.substring(index, i+1));
                 
-               list.add(str.substring(index, i+1)); //i i will take that substring and add to it in list. 
+                //And then call rucursion fun for partation right part subString.
+               partationFun(str, i+1, ans, list);
                 
-               partationFun(str, i+1, ans, list); //recursivly call for the next substring which is left partation right side.
-                
-              list.remove(list.size()-1); //when the function ruturn back make sure remove the last inserted substring.
+                //When we return back remove the last insert subString.
+              list.remove(list.size()-1);
             }
            
         }
     }
     
-
-    //check palindrom methord.    
     public static boolean isPalindrom(String str, int si, int ei){
         while(si<=ei){
             if(str.charAt(si++)!=str.charAt(ei--)){
@@ -43,7 +44,3 @@ class Solution {
         return true;
     }
 }
-
-
-
-
