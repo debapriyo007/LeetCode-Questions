@@ -7,6 +7,7 @@
 | 2   | Combination Sum - II (❗️Doubt)            | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0040-combination-sum-ii/0040-combination-sum-ii.java)          | Medium       | 
 | 3   | Palindrome Partitioning            | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0131-palindrome-partitioning/0131-palindrome-partitioning.java)   | Medium       | 
 | 4   | Subset Sums | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/Medium/Subset%20Sums/subset-sums.java)                          | Medium       | 
+| 5   | Subsets II | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0090-subsets-ii/0090-subsets-ii.java)                          | Medium       | 
 
 
 Feel free to explore each solution for detailed explanations and implementations.
@@ -16,3 +17,4 @@ Feel free to explore each solution for detailed explanations and implementations
 Contributions are welcome! Feel free to open a pull request if you have a better solution or want to add solutions for new problems.
 
 
+Subsets II
