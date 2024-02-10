@@ -10,12 +10,12 @@
 | 5   | Subsets II | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0090-subsets-ii/0090-subsets-ii.java)                          | Medium       | 
 | 6   |  Permutation Sequence  ❗️Doubt❗️ | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0060-permutation-sequence/0060-permutation-sequence.java)                          | Hard       | 
 | 7   |  Permutations  | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0046-permutations/0046-permutations.java)                          |   Medium     | 
+| 8   |  N-Queens  | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0051-n-queens/0051-n-queens.java)                          |   Hard     | 
 
 Feel free to explore each solution for detailed explanations and implementations.
 
 ## Contributing 🧑🏽‍💻
 #### Contributions are welcome! Feel free to open a pull request if you have a better solution or want to add solutions for new problems.
-
 
 
 
