@@ -12,6 +12,7 @@
 | 7   |  Permutations  | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0046-permutations/0046-permutations.java)                          |   Medium     | 
 | 8   |  N-Queens  | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0051-n-queens/0051-n-queens.java)                          |   Hard     | 
 | 9   |  Sudoku Solver  | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0037-sudoku-solver/0037-sudoku-solver.java)                          |   Hard     | 
+| 10   |  Sudoku Solver  | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/Medium/Rat%20in%20a%20Maze%20Problem%20-%20I/rat-in-a-maze-problem-i.java)                          |   Medium     | 
 
 Feel free to explore each solution for detailed explanations and implementations.
 
