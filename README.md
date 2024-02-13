@@ -19,6 +19,19 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 10   |  Rat in a Maze Problem - I  | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/Medium/Rat%20in%20a%20Maze%20Problem%20-%20I/rat-in-a-maze-problem-i.java)      |   Medium     | 
 | 11   |  Merge Sort | [Java](https://github.com/debapriyo007/Recursion-STVR/blob/main/0912-sort-an-array/0912-sort-an-array.java)      |   Medium     | 
 
+
+
+##  **HashMap 🙂**
+
+| No   | Title                                    | Solution                                                      | Difficulty |
+| --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
+| 1   | Two Sum             | [Java]()          | Easy      |  
+
+
+
+
+
+
 Feel free to explore each solution for detailed explanations and implementations.
 
 ## Contributing 🧑🏽‍💻
