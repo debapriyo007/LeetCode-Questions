@@ -27,6 +27,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
 | 1   | Two Sum             | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0001-two-sum/0001-two-sum.java)          | Easy      |  
 | 2   | Longest Consecutive Sequence | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.java)          | Medium      | 
+| 2   | Largest subarray with 0 sum | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/Largest%20subarray%20with%200%20sum/largest-subarray-with-0-sum.java)    | Medium      | 
 
 
 
