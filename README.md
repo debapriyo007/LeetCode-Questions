@@ -31,6 +31,12 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 4   | Largest subarray with 0 sum | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/Largest%20subarray%20with%200%20sum/largest-subarray-with-0-sum.java)    | Medium      | 
 | 5   | Longest Substring Without Repeating Characters | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java)    | Medium      | 
 
+##  **Binary Search 🙂**
+
+| No   | Title                                    | Solution                                                      | Difficulty |
+| --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
+| 1   | Find First and Last Position of Element in Sorted Array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.java)          | Medium |  
+
 
 
 
