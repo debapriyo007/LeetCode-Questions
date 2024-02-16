@@ -45,7 +45,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 Feel free to explore each solution for detailed explanations and implementations.
 
 ## Contributing 🧑🏽‍💻
-#### Contributions are welcome! Feel free to open a pull request if you have a better solution or want to add solutions for new problems.
+#### Contributions are welcome! Feel free to open a pull request if you have a better solution or want to add solutions for new problems.. 
 
 
 
