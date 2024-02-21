@@ -6,6 +6,11 @@ class Solution {
         int ans = Integer.MAX_VALUE;
         while(left<= right){
             int mid = (left+right)/2;
+            //if my search space is sorted.
+            if(nums[left]<= nums[right]){
+                ans = Math.min(ans, nums[left]);
+                break;
+            }
             if(nums[left]<= nums[mid]){
                 //my left portion is sorted.
                 ans = Math.min(ans, nums[left]);
