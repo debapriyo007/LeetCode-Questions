@@ -37,6 +37,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
 | 1   | Find First and Last Position of Element in Sorted Array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.java)          | Medium |  
 | 2   | Search in Rotated Sorted Array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.java)          | Medium |  
+| 2   | Search in Rotated Sorted Array - II| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0081-search-in-rotated-sorted-array-ii/0081-search-in-rotated-sorted-array-ii.java)          | Medium |  
 
 
 
