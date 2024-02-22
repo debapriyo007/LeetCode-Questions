@@ -41,7 +41,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 4   | Find Minimum in Rotated Sorted Array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.java)          | Medium | 
 | 5   | How many times array has been rotated| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Easy/Rotation/rotation.java)          | Easy | 
 | 6   | Single Element in a Sorted Array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.java)          | Medium | 
-
+| 7   | Sqrt(x)| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0069-sqrtx/0069-sqrtx.java)          | Easy | 
 
 
 
