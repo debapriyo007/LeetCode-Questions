@@ -43,6 +43,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 6   | Single Element in a Sorted Array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0540-single-element-in-a-sorted-array/0540-single-element-in-a-sorted-array.java)          | Medium | 
 | 7   | Sqrt(x)| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0069-sqrtx/0069-sqrtx.java)          | Easy | 
 | 8   | Find Nth root of M| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Easy/Find%20Nth%20root%20of%20M/find-nth-root-of-m.java)          | Easy | 
+| 9   | Koko Eating Bananas | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0875-koko-eating-bananas/0875-koko-eating-bananas.java)          |Medium | 
 
 
 
