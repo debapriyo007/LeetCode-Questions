@@ -45,8 +45,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 8   | Find Nth root of M| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Easy/Find%20Nth%20root%20of%20M/find-nth-root-of-m.java)          | Easy | 
 | 9   | Koko Eating Bananas | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0875-koko-eating-bananas/0875-koko-eating-bananas.java)          |Medium | 
 | 10   | Minimum Number of Days to Make m Bouquets | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1482-minimum-number-of-days-to-make-m-bouquets/1482-minimum-number-of-days-to-make-m-bouquets.java)          |Medium | 
-
-
+| 11   |Find the Smallest Divisor Given a Threshold | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1283-find-the-smallest-divisor-given-a-threshold/1283-find-the-smallest-divisor-given-a-threshold.java)          |Medium | 
 
 
 🙌 **Feel free to explore each solution for detailed explanations and implementations.**
