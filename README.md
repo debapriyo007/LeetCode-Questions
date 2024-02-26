@@ -47,6 +47,8 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 10   | Minimum Number of Days to Make m Bouquets | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1482-minimum-number-of-days-to-make-m-bouquets/1482-minimum-number-of-days-to-make-m-bouquets.java)          |Medium | 
 | 11   |Find the Smallest Divisor Given a Threshold | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1283-find-the-smallest-divisor-given-a-threshold/1283-find-the-smallest-divisor-given-a-threshold.java)          |Medium | 
 | 12   | Capacity To Ship Packages Within D Days| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1011-capacity-to-ship-packages-within-d-days/1011-capacity-to-ship-packages-within-d-days.java)          |Medium | 
+| 13   | Kth Missing Positive Number| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1539-kth-missing-positive-number/1539-kth-missing-positive-number.java)          |Easy| 
+
 
 
 
