@@ -49,7 +49,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 12   | Capacity To Ship Packages Within D Days| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1011-capacity-to-ship-packages-within-d-days/1011-capacity-to-ship-packages-within-d-days.java)          |Medium | 
 | 13   | Kth Missing Positive Number| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1539-kth-missing-positive-number/1539-kth-missing-positive-number.java)          |Easy| 
 | 14   | Aggresive Cows| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Hard/Aggressive%20Cows/aggressive-cows.java)          |Hard| 
-| 14   | Allocate minimum number of pages ❗️Doubt❗️| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/Allocate%20minimum%20number%20of%20pages/allocate-minimum-number-of-pages.java)          |Medium| 
+| 15  | Allocate minimum number of pages ❗️Doubt❗️| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/Allocate%20minimum%20number%20of%20pages/allocate-minimum-number-of-pages.java)          |Medium| 
 
 
 
