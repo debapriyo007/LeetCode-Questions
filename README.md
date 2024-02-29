@@ -51,7 +51,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 14   | Aggresive Cows| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Hard/Aggressive%20Cows/aggressive-cows.java)          |Hard| 
 | 15  | Allocate minimum number of pages ❗️Doubt❗️| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/Allocate%20minimum%20number%20of%20pages/allocate-minimum-number-of-pages.java)          |Medium| 
 | 16  |  Median of Two Sorted Arrays (Brute Froce) | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.java)          |Hard| 
-
+| 17  |  K-th element of two Arrays (Brute Froce) | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/K-th%20element%20of%20two%20Arrays/kth-element-of-two-arrays.java)          |Medium| 
 
 
 
