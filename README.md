@@ -54,6 +54,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 17  |  K-th element of two Arrays (Brute Froce) | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/K-th%20element%20of%20two%20Arrays/kth-element-of-two-arrays.java)          |Medium| 
 | 18  |  Row With Maximum 1's (Brute Froce) | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/2643-row-with-maximum-ones/2643-row-with-maximum-ones.java)          |Easy| 
 | 19  |Search a 2D Matrix| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0074-search-a-2d-matrix/0074-search-a-2d-matrix.java)          |Medium| 
+| 20  |Search a 2D Matrix - II | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0240-search-a-2d-matrix-ii/0240-search-a-2d-matrix-ii.java)          |Medium| 
 
 
 
