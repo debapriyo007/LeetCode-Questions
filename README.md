@@ -58,7 +58,11 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 
 
 
+##  **Arrays 🙂**
 
+| No   | Title                                    | Solution                                                      | Difficulty |
+| --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
+| 1   | Find the smallest and second smallest element in an array| [Java]()          | Basic |  
 
 
 
