@@ -62,7 +62,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 
 | No   | Title                                    | Solution                                                      | Difficulty |
 | --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
-| 1   | Find the smallest and second smallest element in an array| [Java]()          | Basic |  
+| 1   | Find the smallest and second smallest element in an array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Basic/Find%20the%20smallest%20and%20second%20smallest%20element%20in%20an%20array/find-the-smallest-and-second-smallest-element-in-an-array.java)        | Basic |  
 
 
 
