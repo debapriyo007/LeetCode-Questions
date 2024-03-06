@@ -63,6 +63,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | No   | Title                                    | Solution                                                      | Difficulty |
 | --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
 | 1   | Find the smallest and second smallest element in an array| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Basic/Find%20the%20smallest%20and%20second%20smallest%20element%20in%20an%20array/find-the-smallest-and-second-smallest-element-in-an-array.java)        | Basic |  
+| 2   | Check if Array Is Sorted and Rotated| [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/1752-check-if-array-is-sorted-and-rotated/1752-check-if-array-is-sorted-and-rotated.java)        | Easy |  
 
 
 
