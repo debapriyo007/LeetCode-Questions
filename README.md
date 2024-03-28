@@ -1,6 +1,13 @@
 # Advanced-DSA-STVR 🚀
 Welcome to the Advanced Data Structure Concepts Repository! This repository is dedicated to providing a comprehensive collection of questions and concepts related to advanced data structures. Whether you're a student, educator, or professional seeking to deepen your understanding of data structures, this repository aims to be a valuable resource for you.
 
+##  **Dynamic Programming 🙂**
+
+| No   | Title                                    | Solution                                                      | Difficulty |
+| --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
+| 1   |  Climbing Stairs   | [Java](https://github.com/debapriyo007/Advanced-DSA-Questions/blob/main/0070-climbing-stairs/0070-climbing-stairs.java)          | Easy      |  
+
+
 
 
  ##  **Recursion 🙂**
@@ -56,6 +63,8 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | 3   | Longest Consecutive Sequence | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.java)          | Medium      | 
 | 4   | Largest subarray with 0 sum | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/Medium/Largest%20subarray%20with%200%20sum/largest-subarray-with-0-sum.java)    | Medium      | 
 | 5   | Longest Substring Without Repeating Characters | [Java](https://github.com/debapriyo007/Advanced-DSA-STVR/blob/main/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.java)    | Medium      | 
+
+
 
 
 
