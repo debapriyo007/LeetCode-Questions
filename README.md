@@ -1,11 +1,7 @@
 # Advanced-DSA-Questions 🚀
 Welcome to the Advanced Data Structure Concepts Repository! This repository is dedicated to providing a comprehensive collection of questions and concepts related to advanced data structures. Whether you're a student, educator, or professional seeking to deepen your understanding of data structures, this repository aims to be a valuable resource for you.
 
-##  **Dynamic Programming 🙂**
 
-| No   | Title                                    | Solution                                                      | Difficulty |
-| --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
-| 1   |  Climbing Stairs   | [Java](https://github.com/debapriyo007/Advanced-DSA-Questions/blob/main/0070-climbing-stairs/0070-climbing-stairs.java)          | Easy      |  
 
 
 
@@ -66,7 +62,11 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 
 
 
+##  **Dynamic Programming 🙂**
 
+| No   | Title                                    | Solution                                                      | Difficulty |
+| --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
+| 1   |  Climbing Stairs   | [Java](https://github.com/debapriyo007/Advanced-DSA-Questions/blob/main/0070-climbing-stairs/0070-climbing-stairs.java)          | Easy      |  
 
 
 
