@@ -7,6 +7,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 | --- | ---------------------------------------- | ------------------------------------------------------------- | ---------- |
 | 1   |  Climbing Stairs   | [Java](https://github.com/debapriyo007/Advanced-DSA-Questions/blob/main/0070-climbing-stairs/0070-climbing-stairs.java)          | Easy      |  
 | 2   |  Frog Jump(DP-3) | [Java](https://github.com/debapriyo007/java-DSA/blob/main/23_DP_Code%20Studio/Frog%20Jump/FrogJump.java)          | Easy      |  
+| 3   | Min Cost Climbing Stairs | [Java](https://github.com/debapriyo007/Advanced-DSA-Questions/blob/main/0746-min-cost-climbing-stairs/0746-min-cost-climbing-stairs.java)          | Easy      | 
 
 
 
