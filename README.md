@@ -70,10 +70,6 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 
 
 
-
-
-https://github.com/debapriyo007/java-DSA/blob/main/23_DP_Code%20Studio/Frog%20Jump/FrogJump.java
-
 🙌 **Feel free to explore each solution for detailed explanations and implementations.**
 
 ## Contributing 🧑🏽‍💻
