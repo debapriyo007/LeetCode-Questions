@@ -1,4 +1,4 @@
-# Advanced-DSA-Questions 🚀
+# DSA-Questions 🚀
 Welcome to the Advanced Data Structure Concepts Repository! This repository is dedicated to providing a comprehensive collection of questions and concepts related to advanced data structures. Whether you're a student, educator, or professional seeking to deepen your understanding of data structures, this repository aims to be a valuable resource for you.
 
 
@@ -78,7 +78,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 #### Contributions are welcome! Feel free to open a pull request if you have a better solution or want to add solutions for new problems.. 
 
 
-
+### Happy Coding ❤️
 
 
 
