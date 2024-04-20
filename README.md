@@ -78,7 +78,7 @@ Welcome to the Advanced Data Structure Concepts Repository! This repository is d
 #### Contributions are welcome! Feel free to open a pull request if you have a better solution or want to add solutions for new problems.. 
 
 
-### Happy Coding ❤️
+#### Happy Coding 💛
 
 
 
