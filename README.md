@@ -1,4 +1,4 @@
-# DSA-Questions 🚀
+# LeetCode-Questions 🚀
 Welcome to the Advanced Data Structure Concepts Repository! This repository is dedicated to providing a comprehensive collection of questions and concepts related to advanced data structures. Whether you're a student, educator, or professional seeking to deepen your understanding of data structures, this repository aims to be a valuable resource for you.
 
 
