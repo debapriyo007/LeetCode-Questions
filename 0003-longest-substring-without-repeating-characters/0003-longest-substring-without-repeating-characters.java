@@ -1,29 +1,32 @@
-/*
-
-    Time Complexity -> 0(2*N)
-    Space Complexity -> 0(N)
-*/
-
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         
-        if(s.length() == 0)return 0;
-        int ans = 1;
-        HashSet<Character> set = new HashSet<>();
-        int left = 0;
-        int right = 0;
+        int stWindow = 0;
+        int endWindow = 0; //i
+        int maxLen = Integer.MIN_VALUE;
+        // HashSet<Character> set = new HashSet<>();
+        HashMap<Character, Integer> map = new HashMap<>();
         
-        while(right<s.length()){
-            if(set.contains(s.charAt(right))){
-                set.remove(s.charAt(left));
-                left++;
-            }else{
-                set.add(s.charAt(right));
-                right++;
-                int len = set.size();
-                ans = Math.max(ans, len);
+        while(endWindow<s.length()){
+            char ch = s.charAt(endWindow);
+            // if(set.contains(ch)){
+            if(map.containsKey(ch) && map.get(ch) >= stWindow){
+                // if present in the set, then i have to remove his previous occ.
+                //Shrinking..
+                // while(stWindow < endWindow && set.contains(ch)){
+                //     set.remove(s.charAt(stWindow));
+                //     stWindow++;
+                // }
+                
+                
+                //update windowSt.
+                stWindow = map.get(ch) +1;
             }
+            // set.add(ch);
+            map.put(ch,endWindow);
+            maxLen = Math.max(maxLen, endWindow - stWindow + 1);
+            endWindow++;
         }
-        return ans;
+        return (maxLen == Integer.MIN_VALUE) ? 0 : maxLen;
     }
 }
