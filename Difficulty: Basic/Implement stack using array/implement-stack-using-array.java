@@ -37,11 +37,10 @@ public class Main {
 
 // } Driver Code Ends
 
-
+ 
 class MyStack {
     private int[] arr;
     private int top;
-    int index = 0;
 
     public MyStack() {
         arr = new int[1000];
@@ -49,18 +48,15 @@ class MyStack {
     }
 
     public void push(int x) {
-        // Your Code
-       
-        arr[index] = x;
-        index++;
+        
+        top++;
+        arr[top] = x;
     }
 
     public int pop() {
-        // Your Code
-        if(index == 0)return -1;
-        int peek = arr[index-1];
-        arr[index-1] = 0;
-        index--;
-        return peek;
+        if(top == -1)return -1;
+        int x = arr[top];
+        top--;
+        return x;
     }
 }
