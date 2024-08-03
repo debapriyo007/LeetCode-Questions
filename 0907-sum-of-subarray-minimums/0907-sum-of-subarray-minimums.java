@@ -1,7 +1,7 @@
-class Solution  extends HelperFun{
+class Solution  extends HelperMethod{ // inherit the class 
     public int sumSubarrayMins(int[] arr) {
         
-        HelperFun help = new HelperFun();
+        HelperMethod help = new HelperMethod(); // object of helper fun to access the method.
         
         int[] nextSE = help.nextSmaller(arr);
         int[] prevSE = help.previousSmaller(arr);
@@ -19,9 +19,11 @@ class Solution  extends HelperFun{
 
 }
 
-class HelperFun{
+//purpose of creating another class just coz of organized the code..
+
+class HelperMethod{
     // Find the next smaller element
-    int[] nextSmaller(int[] arr) {
+    public int[] nextSmaller(int[] arr) {
         int n = arr.length;
         int[] nse = new int[n];
         Stack<Integer> stk = new Stack<>();
@@ -37,7 +39,7 @@ class HelperFun{
     }
 
     // Find the previous smaller element
-    int[] previousSmaller(int[] arr) {
+    public int[] previousSmaller(int[] arr) {
         int n = arr.length;
         int[] pse = new int[n];
         Stack<Integer> stk = new Stack<>();
