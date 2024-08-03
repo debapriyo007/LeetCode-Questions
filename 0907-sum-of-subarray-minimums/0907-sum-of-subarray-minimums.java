@@ -1,7 +1,10 @@
-class Solution {
+class Solution  extends HelperFun{
     public int sumSubarrayMins(int[] arr) {
-        int[] nextSE = nextSmaller(arr);
-        int[] prevSE = previousSmaller(arr);
+        
+        HelperFun help = new HelperFun();
+        
+        int[] nextSE = help.nextSmaller(arr);
+        int[] prevSE = help.previousSmaller(arr);
         long total = 0;
         int mod = (int)(1e9+7);
 
@@ -14,6 +17,9 @@ class Solution {
         return (int) total;
     }
 
+}
+
+class HelperFun{
     // Find the next smaller element
     int[] nextSmaller(int[] arr) {
         int n = arr.length;
@@ -44,4 +50,24 @@ class Solution {
         }
         return pse;
     }
+    
+    
+        /* 
+    int bruteFroce(int[]arr){
+         //this is the brute froce approach 
+        //where i generate all subarrays and find mini and sum it up
+        int n = arr.length;
+        int sum = 0;
+        int mod = (int)(1e9 + 7);
+        
+        for(int i = 0;i<n;i++){
+            int min = arr[i];
+            for(int j = i;j<n;j++){
+                min = Math.min(arr[j], min);
+                sum = (sum+min)%mod;
+            }
+        }
+        return sum;
+      
+    }  */
 }
