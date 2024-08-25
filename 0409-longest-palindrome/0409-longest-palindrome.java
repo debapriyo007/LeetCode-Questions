@@ -3,20 +3,27 @@ class Solution {
         
         if(s.length() == 1)return 1;
         
-        HashSet<Character> set = new HashSet<>();
+        // HashSet<Character> set = new HashSet<>();
+        int[]set = new int[128];
         int res = 0;
+        int oddCnt = 0;
         for(char ch : s.toCharArray()){
-            if(set.contains(ch)){
+            if(set[ch]!=0){ // by default array all index value are 0 in java.
                 res+=2;
-                set.remove(ch);
+                // set.remove(ch);
+                set[ch] = 0;
+                oddCnt--;
             }else{
-                set.add(ch);
+                // set.add(ch);
+                set[ch] = 1;
+                oddCnt++;
             }
         }
         
-        if(set.size() > 0){
-            res+= 1;
-        }
+//         if(set.size() > 0){
+//             res+= 1;
+//         }
+        if(oddCnt > 0){res+= 1;}
         return res;
        
         /*HashMap<Character, Integer> map = new HashMap<>();
