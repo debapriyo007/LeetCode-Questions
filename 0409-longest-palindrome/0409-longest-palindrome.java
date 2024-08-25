@@ -3,7 +3,23 @@ class Solution {
         
         if(s.length() == 1)return 1;
         
-        HashMap<Character, Integer> map = new HashMap<>();
+        HashSet<Character> set = new HashSet<>();
+        int res = 0;
+        for(char ch : s.toCharArray()){
+            if(set.contains(ch)){
+                res+=2;
+                set.remove(ch);
+            }else{
+                set.add(ch);
+            }
+        }
+        
+        if(set.size() > 0){
+            res+= 1;
+        }
+        return res;
+       
+        /*HashMap<Character, Integer> map = new HashMap<>();
         int oddCnt = 0;
         int res = 0;
         for(char ch: s.toCharArray()){
@@ -19,6 +35,8 @@ class Solution {
         if(oddCnt > 0){
             res+= 1;
         }
-        return res;
+        return res;*/
+        
+        
     }
 }
