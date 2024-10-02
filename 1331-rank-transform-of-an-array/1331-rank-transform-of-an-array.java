@@ -1,25 +1,38 @@
+class Pair implements Comparable<Pair>{
+    int ele;
+    int indx;
+    Pair(int ele, int indx){
+        this.ele = ele;
+        this.indx = indx;
+    }
+    
+    @Override
+    public int compareTo(Pair p2){
+        return this.ele - p2.ele; //sort accending order.
+    }
+}
+
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
-        
         int n = arr.length;
-        int[]copy = new int[n];
+        if(n == 0)return new int[0]; //this is give me as runtime error.
+        PriorityQueue<Pair> pq = new PriorityQueue<>();
         for(int i = 0;i<n;i++){
-            copy[i] = arr[i];
+            pq.add(new Pair(arr[i], i));
         }
         
-        Arrays.sort(arr);
-        
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int rank = 1;
-        for(int i = 0;i<n;i++){
-           if(!map.containsKey(arr[i])){
-               map.put(arr[i], rank);
-               rank++;
-           }
-        }
         int[]ans = new int[n];
-        for(int i = 0;i<n;i++){
-            ans[i] = map.get(copy[i]);
+        int rank = 1;
+        Pair prev = pq.poll(); //get the first smaller ele,indx
+        ans[prev.indx] = rank;
+        
+        while(!pq.isEmpty()){
+            Pair curr = pq.poll();
+            if(curr.ele!= prev.ele){
+                rank++;
+            }
+            ans[curr.indx] = rank;
+            prev = curr;
         }
         return ans;
     }
