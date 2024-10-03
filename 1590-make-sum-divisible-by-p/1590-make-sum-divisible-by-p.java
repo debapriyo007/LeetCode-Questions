@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 class Solution {
     public int minSubarray(int[] nums, int p) {
         int totalSum = 0;
