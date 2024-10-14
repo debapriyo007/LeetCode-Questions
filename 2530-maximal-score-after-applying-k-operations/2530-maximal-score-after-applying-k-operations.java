@@ -2,9 +2,9 @@ class Solution {
     public long maxKelements(int[] nums, int k) {
         int n = nums.length;
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-        
-        for(int i = 0 ;i<n ;i++){
-            pq.offer(nums[i]);
+       
+        for(int ele : nums){
+            pq.offer(ele);
         }
         
         long ans = 0;
