@@ -1,7 +1,14 @@
 class Solution {
     public long maxKelements(int[] nums, int k) {
+        
         int n = nums.length;
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        
+        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>(){
+            @Override
+            public int compare(Integer a, Integer b){
+                return b - a;
+            }
+        });
        
         for(int ele : nums){
             pq.offer(ele);
@@ -16,6 +23,8 @@ class Solution {
         return ans;
     }
 }
+
+// +++++++++++++++ BRUTE FROCE +++++++++++++++++++++++++++++++++++++++++++++
 
 //         int n = nums.length;
 //         long ans = 0;
