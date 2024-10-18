@@ -1,21 +1,21 @@
-import java.util.*;
-
 class Solution {
     public int countMaxOrSubsets(int[] nums) {
         // generate all subsets
-        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
-        generateSubSet(0, nums, new ArrayList<>(), list);
+        ArrayList<ArrayList<Integer>> ansList = new ArrayList<>();
+        generateSubSet(0, nums, new ArrayList<>(), ansList);
         
         //go through all list of sublist and get ele and perfrom or oprations.
         ArrayList<Integer> binary = new ArrayList<>();
-        for(ArrayList<Integer> ds : list){
+        for(ArrayList<Integer> it : ansList){
+        //   System.out.println("SubList : - > " + it);
             int OR = 0;
-            for(int ele : ds){
+            for(int ele : it){
+        //  System.out.println("SubList Elements - > " + ele);
                 OR |= ele;  
             }
             binary.add(OR);
         }
-
+        //	System.out.println(binary);
         int max = Integer.MIN_VALUE; 
         for(int ele : binary){
             max = Math.max(ele, max);
