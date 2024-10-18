@@ -5,32 +5,35 @@ class Solution {
         // generate all subsets
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         generateSubSet(0, nums, new ArrayList<>(), list);
-
-        ArrayList<Integer> orValues = new ArrayList<>();
-        for (ArrayList<Integer> ds : list) {
-            int orResult = 0;
-            for (int ele : ds) {
-                orResult |= ele;  
+        
+        //go through all list of sublist and get ele and perfrom or oprations.
+        ArrayList<Integer> binary = new ArrayList<>();
+        for(ArrayList<Integer> ds : list){
+            int OR = 0;
+            for(int ele : ds){
+                OR |= ele;  
             }
-            orValues.add(orResult);
+            binary.add(OR);
         }
 
-        int maxOr = Collections.max(orValues);
+        int max = Integer.MIN_VALUE; 
+        for(int ele : binary){
+            max = Math.max(ele, max);
+        }
 
         int cnt = 0;
-        for (int orVal : orValues) {
-            if (orVal == maxOr) {
+        for(int ele : binary){
+            if(ele == max){
                 cnt++;
             }
         }
-
         return cnt;
     }
 
     
      void generateSubSet(int index, int[] arr, 
-                                ArrayList<Integer> ds, 
-                                ArrayList<ArrayList<Integer>> list) {
+                         ArrayList<Integer> ds, 
+                         ArrayList<ArrayList<Integer>> list) {
 
         if (index == arr.length) {
             list.add(new ArrayList<>(ds));
