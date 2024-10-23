@@ -35,8 +35,6 @@ class Solution {
             list.add(sum);
         }
         
-        if(k > list.size())return -1;
-        
         //Now K'th largest element concept.
         PriorityQueue<Long> pq = new PriorityQueue<>(Collections.reverseOrder());
         
@@ -48,6 +46,6 @@ class Solution {
             pq.poll();
             x--;
         }
-        return pq.peek();
+        return (k > list.size()) ? -1 : pq.peek();
     }
 }
