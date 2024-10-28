@@ -1,24 +1,24 @@
 class Solution {
     public int longestSquareStreak(int[] nums) {
-        int maxLen = 0;
-
-        Set<Long> set = new HashSet<>();
+	   
+        HashSet<Long> set = new HashSet<>();
         for (int x : nums) {
-            set.add((long)x);
+            set.add((long)x); 
         }
-
-        for (int xx : nums) {
-            long ele = xx;
+		
+		// ArrayList<Integer> list = new ArrayList<>();
+        int maxLen = 0;
+	    for(int xx : nums){
             int len = 1;
-
-            while(set.contains(ele * ele)) {
-                ele *= ele;
+            
+            long currEle = xx;
+            while(set.contains(currEle*currEle)){
+                currEle = currEle*currEle;
                 len++;
             }
-
             maxLen = Math.max(maxLen, len);
         }
-
-        return (maxLen > 1) ? maxLen : -1;
+        
+        return (maxLen > 1) ? maxLen : -1; 
     }
 }
